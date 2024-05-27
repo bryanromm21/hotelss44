@@ -6,6 +6,25 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+ ## como usar
+
+- antes de iniciar el proyecto importe la base de datos en xammp y ejecute este comando php artisan storage:link.
+- de lo contrario realizamos los siguientes pasos ingrese este comando en terminar php artisan migrate para mirarlas tablas de laravel.
+- posterior mente realice este comando php artisan make:filament-user para crear al usuario admi.
+- finalmente use este comando php artisan storage:link para activar las vistas de la subida de imágenes.
+### Características
+
+* php artisan migrate
+* php artisan make:filament-user 
+* php artisan storage:link 
+
+### Instalación
+
+Siga estos pasos para instalar el proyecto:
+
+1. Clonar el repositorio
+2. importar la base de datos
+3. ¡Disfruta!
 
 ## About Laravel
 
